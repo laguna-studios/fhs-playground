@@ -3,7 +3,8 @@ run-name: Playground Run
 on: [workflow_dispatch]
 
 jobs:
-  runs-on: ubuntu-latest
-  name: Use our action
-  steps:    
-    - uses: laguna-studios/fhs@36aca67
+  cicd:
+    runs-on: ubuntu-latest
+    name: Use our action
+    steps:    
+      - uses: laguna-studios/fhs@36aca67
