@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     name: Use our action
     steps:    
-      - uses: laguna-studios/fhs@36aca6736fc2718379a0899969c65dfe77ef7b5e
+      - uses: laguna-studios/fhs@2990aa15c847ae8a4b484f923a74a4ba057b5b50
